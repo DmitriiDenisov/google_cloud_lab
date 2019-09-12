@@ -46,7 +46,7 @@ Run test_gpu.py file from this repository
 
 ### ssh login with password (without public/secret key pair):
 1. vim /etc/ssh/sshd_config. Change following row: 
-# Global settings
+\# Global settings
 …
 PasswordAuthentication yes
 …
