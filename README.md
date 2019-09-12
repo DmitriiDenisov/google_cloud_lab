@@ -51,7 +51,7 @@ Run test_gpu.py file from this repository
 
 2. sudo service ssh restart
 3. sudo su
-4. passwd <username> (for example passwd dmitryhse). This will reset user’s password
+4. passwd \<username\> (for example passwd dmitryhse). This will reset user’s password
 5. exit (exit from sudo mode)
 6. ssh \<login\>@\<ip\> (for example ssh dmitryhse@35.188.90.126)
 
