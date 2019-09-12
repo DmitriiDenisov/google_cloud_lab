@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=R8C66NwMJLs
 ### Run in Pycharm:
 Professional version is required. In the window selection of the interpreter: select ssh, leave port 22, then follow the instructions.
 
-![alt-text-1](https://i.ibb.co/jyZFc6c/2.png "title-1") ![alt-text-2]( "title-2")
+![alt-text-1](https://i.ibb.co/jyZFc6c/2.png "title-1")
 
 
 ### To check the GPU:
