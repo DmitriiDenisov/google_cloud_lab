@@ -45,13 +45,13 @@ Professional version is required. In the window selection of the interpreter: se
 Run test_gpu.py file from this repository
 
 ### ssh login with password (without public/secret key pair):
-1. vim /etc/ssh/sshd_config. Change following row: 
+1. ```sudo vim /etc/ssh/sshd_config```. Change following row: 
 
 "PasswordAuthentication yes"
 
-2. sudo service ssh restart
-3. sudo su
-4. passwd \<username\> (for example passwd dmitryhse). This will reset user’s password
+2. ```sudo service ssh restart```
+3. ```sudo su```
+4. ```passwd \<username\>``` (for example passwd dmitryhse). This will reset user’s password
 5. exit (exit from sudo mode)
 6. ssh \<login\>@\<ip\> (for example ssh dmitryhse@35.188.90.126)
 
