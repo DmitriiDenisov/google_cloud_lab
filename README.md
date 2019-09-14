@@ -58,3 +58,6 @@ Run test_gpu.py file from this repository
 ### Mount remote server file system as disk on your Mac:
 
 https://www.youtube.com/watch?v=ubfeyVtyFJc
+
+Example of running command:
+ ```sshfs dmitryhse@35.208.27.233:/home /Users/Dmitry/Desktop/folder -ovolname=remonte_front_VM```
