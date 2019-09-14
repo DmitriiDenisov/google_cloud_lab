@@ -60,5 +60,7 @@ Run test_gpu.py file from this repository
 https://www.youtube.com/watch?v=ubfeyVtyFJc
 
 Example of running command:
+
  ```sshfs dmitryhse@35.208.27.233:/home /Users/Dmitry/Desktop/folder -ovolname=remonte_front_VM```
+ 
  ```umount -f /Users/Dmitry/Desktop/folder```
