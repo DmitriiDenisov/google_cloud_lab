@@ -55,4 +55,6 @@ Run test_gpu.py file from this repository
 5. exit (exit from sudo mode)
 6. ```ssh \<login\>@\<ip\>``` (for example ssh dmitryhse@35.188.90.126)
 
+### Mount remote server file system as disk on your Mac:
 
+https://www.youtube.com/watch?v=ubfeyVtyFJc
