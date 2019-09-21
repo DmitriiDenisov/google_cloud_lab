@@ -65,6 +65,9 @@ Example of running command:
  
  ```umount -f /Users/Dmitry/Desktop/folder```
 
+### Open port
+https://www.youtube.com/watch?v=JmjqPpQdtW8
+
 ### Launch Jupyter Notebook in Google Cloud:
 1. Open port
 2. ``` jupyter-notebook --no-browser --port=<PORT-NUMBER> ```
