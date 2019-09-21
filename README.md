@@ -64,6 +64,9 @@ Example of running command:
  ```sshfs dmitryhse@35.208.27.233:/home /Users/Dmitry/Desktop/folder -ovolname=remonte_front_VM```
  
  ```umount -f /Users/Dmitry/Desktop/folder```
+ 
+ Specifies key:
+ ```sshfs dmitryhse@35.208.27.233:/home /Users/Dmitry/Desktop/folder -ovolname=remonte_front_VM -o IdentityFile=/path/to/key```
 
 ### Open port
 https://www.youtube.com/watch?v=JmjqPpQdtW8
