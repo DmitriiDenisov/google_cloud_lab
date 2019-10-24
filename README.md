@@ -80,3 +80,12 @@ https://www.youtube.com/watch?v=p5wl1s5gKY0&t=270s
 
 Connect to remote Windows machine use this app:
 https://apps.apple.com/ru/app/microsoft-remote-desktop-10/id1295203466?mt=12
+
+### Error: "Accelerators are not available for instances with a shared physical core"
+You can encounter with this error when trying to enable GPU when you have Machine Type: Shared core.
+I.e it might be f1-micro or g1-small.
+1) Stop VM
+2) Change 'Machine type' from 'Shared core' to 'Standard'
+3) Click 'Save'
+4) Click 'Edit' and then add GPU
+5) Check that GPU is available: `sudo lshw -C display`
