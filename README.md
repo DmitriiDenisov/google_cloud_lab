@@ -35,6 +35,9 @@ https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.1.4/prod/9
 RSA keys and so forth
 https://www.youtube.com/watch?v=R8C66NwMJLs
 
+If does not want to connect try: 
+`chmod 600 public_key`
+
 ### Run in Pycharm:
 Professional version is required. In the window selection of the interpreter: select ssh, leave port 22, then follow the instructions.
 
