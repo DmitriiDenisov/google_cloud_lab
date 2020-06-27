@@ -76,7 +76,8 @@ https://www.youtube.com/watch?v=JmjqPpQdtW8
 
 ### Launch Jupyter Notebook in Google Cloud:
 1. Open port
-2. ``` jupyter-notebook --no-browser --port=<PORT-NUMBER> ```
+2. ``` jupyter-notebook --no-browser --ip 0.0.0.0 --port=<PORT-NUMBER> ``` 
+**Important**: we need `--ip 0.0.0.0` in order to allow external connections
 
 ### Create Windows remote Desktop:
 https://www.youtube.com/watch?v=p5wl1s5gKY0&t=270s
