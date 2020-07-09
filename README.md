@@ -80,10 +80,16 @@ https://www.youtube.com/watch?v=JmjqPpQdtW8
 **Important**: we need `--ip 0.0.0.0` in order to allow external connections
 
 ### Create Windows remote Desktop:
-https://www.youtube.com/watch?v=p5wl1s5gKY0&t=270s
 
-Connect to remote Windows machine use this app:
+1. https://www.youtube.com/watch?v=p5wl1s5gKY0&t=270s
+
+2. Connect to remote Windows machine use this app:
 https://apps.apple.com/ru/app/microsoft-remote-desktop-10/id1295203466?mt=12
+
+3. You have to wait some time until it starts (around 1-2 mins)
+
+4. Check that port 3389 is open 
+
 
 ### Error: "Accelerators are not available for instances with a shared physical core"
 You can encounter with this error when trying to enable GPU when you have Machine Type: Shared core.
